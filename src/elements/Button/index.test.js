@@ -4,7 +4,7 @@ import Button from './index'
 import { BrowserRouter as Router } from 'react-router-dom'
 
 test("Should not allowed click button if isDisable is present", () => {
-    const {container} = render(<Button disabled></Button>)
+    const {container} = render(<Button isDisabled></Button>)
 
     expect(container.querySelector('span.disabled')).toBeInTheDocument();
 });
