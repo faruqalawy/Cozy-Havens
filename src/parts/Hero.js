@@ -12,12 +12,12 @@ import formatNumber from 'utils/formatNumber'
 
 export default function Hero(props) {
     
-    /*function showMostPicked() {
-        window.scrollTo(
+    function showMostPicked() {
+        window.scrollTo({
             top: props.refMostPicked.current.offsetTop - 30,
             behavior: "smooth"
-        )
-    }*/
+        });
+    }
     
     return (
         <section className='container pt-4'> 
@@ -32,7 +32,7 @@ export default function Hero(props) {
                         Break free at Cozy Havens, special curated homes, <br />
                         audacious tranquility, your real escape begins.
                     </p>
-                    <Button className='btn px-5' hasShadow isPrimary /*onClick={showMostPicked}*/>
+                    <Button className='btn px-5' hasShadow isPrimary onClick={showMostPicked}>
                         Show Me Now
                     </Button>
 

@@ -3,6 +3,174 @@
         "travelers": 2548,
         "treasures": 706,
         "cities": 84
-    }
+    },
+    "mostPicked": [
+        {
+            "_id": "asd1293uasdads1",
+            "name": "Beach Villa Fam",
+            "type": "Apartment",
+            "imageUrl": "/images/mostpicked-main.jpg",
+            "country": "Indonesia",
+            "city": "Parangtritis, Yogyakarta",
+            "price": "35",
+            "unit": "night"
+        },
+        {
+            "_id": "asd1293uasdads1",
+            "name": "Royal Vintage",
+            "type": "Apartment",
+            "imageUrl": "/images/mostpicked-1.jpg",
+            "country": "Indonesia",
+            "city": "Malioboro, Yogyakarta",
+            "price": "50",
+            "unit": "night"
+        },
+        {
+            "_id": "asd1293uasdads1",
+            "name": "The Heritage",
+            "type": "Apartment",
+            "imageUrl": "/images/mostpicked-2.jpg",
+            "country": "Indonesia",
+            "city": "Prambanan, Yogyakarta",
+            "price": "28",
+            "unit": "night"
+        },
+        {
+            "_id": "asd1293uasdads1",
+            "name": "Nature Hill",
+            "type": "Apartment",
+            "imageUrl": "/images/mostpicked-3.jpg",
+            "country": "Indonesia",
+            "city": "Kaliurang, Yogyakarta",
+            "price": "30",
+            "unit": "night"
+        },
+        {
+            "_id": "asd1293uasdads1",
+            "name": "Secret Borobudur",
+            "type": "Apartment",
+            "imageUrl": "/images/mostpicked-4.jpg",
+            "country": "Indonesia",
+            "city": "Kulonprogo, Yogyakarta",
+            "price": "20",
+            "unit": "night"
+        }
+    ],
+    "categories": [
+        {
+            "_id": "asd1293uasdads1",
+            "name": "House with beauty backyard",
+            "items": [
+                {
+                    "_id": "asd1293uasdads1",
+                    "name": "Bobox",
+                    "imageUrl": "/images/img-categories-1.jpg",
+                    "country": "Indonesia",
+                    "city": "Bantul, Yogyakarta",
+                    "isPopular": true
+                },
+                {
+                    "_id": "asd1293uasdads1",
+                    "name": "Emerald Villa",
+                    "imageUrl": "/images/img-categories-2.png",
+                    "country": "Indonesia",
+                    "city": "Gunung Kidul, Yogyakarta",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd1293uasdads1",
+                    "name": "Ameena House",
+                    "imageUrl": "/images/img-categories-3.png",
+                    "country": "Indonesia",
+                    "city": "Kaliurang, Yogyakarta",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd1293uasdads1",
+                    "name": "Mandala Homestay",
+                    "imageUrl": "/images/img-categories-4.png",
+                    "country": "Indonesia",
+                    "city": "Kulonprogo, Yogyakarta",
+                    "isPopular": false
+                }
+            ]
+        },
+        {
+            "_id": "asd1293uasdads1",
+            "name": "Hotel with large living room",
+            "items": [
+                {
+                    "_id": "asd1293uasdads1",
+                    "name": "Royal Ambarrukmo",
+                    "imageUrl": "/images/img-categories-5.png",
+                    "country": "Indonesia",
+                    "city": "Sleman, Yogyakarta",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd1293uasdads1",
+                    "name": "Grand Emerald",
+                    "imageUrl": "/images/img-categories-6.png",
+                    "country": "Indonesia",
+                    "city": "Sapen, Yogyakarta",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd1293uasdads1",
+                    "name": "Edge Treasure",
+                    "imageUrl": "/images/img-categories-7.png",
+                    "country": "Indonesia",
+                    "city": "Malioboro, Yogyakarta",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd1293uasdads1",
+                    "name": "Secret Garden",
+                    "imageUrl": "/images/img-categories-8.png",
+                    "country": "Indonesia",
+                    "city": "Kaliurang, Yogyakarta",
+                    "isPopular": true
+                }
+            ]
+        },
+        {
+            "_id": "asd1293uasdads1",
+            "name": "Apartment with kitchen set",
+            "items": [
+                {
+                    "_id": "asd1293uasdads1",
+                    "name": "Urban Height",
+                    "imageUrl": "/images/img-categories-9.png",
+                    "country": "Indonesia",
+                    "city": "Parangtritis, Yogyakarta",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd1293uasdads1",
+                    "name": "Downtown Serenity",
+                    "imageUrl": "/images/img-categories-10.png",
+                    "country": "Indonesia",
+                    "city": "Sleman, Yogyakarta",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd1293uasdads1",
+                    "name": "Green Scape Apartment",
+                    "imageUrl": "/images/img-categories-11.png",
+                    "country": "Indonesia",
+                    "city": "Kaliurang, Yogyakarta",
+                    "isPopular": true
+                },
+                {
+                    "_id": "asd1293uasdads1",
+                    "name": "Classic Charm",
+                    "imageUrl": "/images/img-categories-12.png",
+                    "country": "Indonesia",
+                    "city": "Malioboro, Yogyakarta",
+                    "isPopular": false
+                }
+            ]
+        }
+    ]
 }
 
