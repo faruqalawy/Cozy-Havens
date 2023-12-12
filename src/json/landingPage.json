@@ -171,6 +171,15 @@
                 }
             ]
         }
-    ]
+    ],
+    "testimonial": {
+        "_id": "asd1293uasdads1",
+        "imageUrl": "/images/testimonial-image.jpg",
+        "name": "Happy Traveler",
+        "rate": 4.7,
+        "content": "What a great trip and comfy accommodation, I should come again with my friends next time...",
+        "travelerName": "Oliver",
+        "travelerOccupation": "Photographer"
+    }
 }
 
