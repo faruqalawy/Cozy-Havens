@@ -8,6 +8,7 @@ export default function Star({ className, value, height, width, spacing }) {
 
     const stars = Array.from({ length: 5 }, (_, index) => (
         <div
+            id='star-element'
             className={`star ${index < wholeStars ? '' : 'placeholder'}`}
             key={`star-${index}`}
             style={{
@@ -22,6 +23,7 @@ export default function Star({ className, value, height, width, spacing }) {
     if (decimals > 0 && value <= 5) {
         stars.push(
             <div
+                id='star-element'
                 className='star'
                 key={`starWithDecimal`}
                 style={{
@@ -34,7 +36,7 @@ export default function Star({ className, value, height, width, spacing }) {
     }
 
     return (
-        <div className={['stars', className].join(" ")}>
+        <div className={['stars', className].join(" ")} data-testid="stars-container">
             {stars}
         </div>
     );
