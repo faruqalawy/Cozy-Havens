@@ -1,4 +1,5 @@
 import React from 'react'
+import { Fade } from 'react-awesome-reveal'
 
 import TestimonyAccent from 'assets/images/testimonial-image-frame.jpg'
 
@@ -8,6 +9,7 @@ import Button from 'elements/Button'
 export default function Testimony({data}) {
     return (
         <section className='container'>
+            <Fade direction='up' triggerOnce>
             <div className='row align-items-center'>
                 <div className='col-auto' style={{marginRight: 30}}>
                     <div 
@@ -36,6 +38,7 @@ export default function Testimony({data}) {
                     </div>
                 </div>
             </div>
+            </Fade>
         </section>
     )
 }

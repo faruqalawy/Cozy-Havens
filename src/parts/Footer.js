@@ -5,14 +5,14 @@ import IconText from './IconText'
 
 export default function Footer() {
   return (
-    <Footer>
+    <footer>
         <div className='container'>
             <div className='row'>
                 <div className='col-auto' style={{ width: 350 }}>
                     <IconText />
                     <p className='brand-tagline'>
-                        Discover, Book, and Unwind. <br />
-                        Your Journey Begins with Us!
+                        Discover, Book, and Unwind. Your<br />
+                        Journey Begins with Us!
                     </p>
                 </div>
                 <div className='col-auto mr-5'>
@@ -77,11 +77,11 @@ export default function Footer() {
                 </div>
             </div>
             <div className='row'>
-                <div className='col text-center copyrights'>
+                <div className='col text-center copyrights py-5'>
                     Copyright 2023 - All right reserved - CozyHavens
                 </div>
             </div>
         </div>
-    </Footer>
+    </footer>
   )
 }
