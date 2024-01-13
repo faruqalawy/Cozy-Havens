@@ -21,25 +21,25 @@ export default function Categories( { data } ) {
                             return (
                                 <div className='item column-3 row-1' key={`category-${index1}-item-${index2}`}>
                                     <Fade direction='up' triggerOnce delay={300 * index2}>
-                                    <div className='card'>
-                                        {item.isPopular && (
-                                            <div className='tag'>
-                                                Popular {" "}
-                                                <span className='font-weight-light'>Choice</span>
+                                        <div className='card'>
+                                            {item.isPopular && (
+                                                <div className='tag'>
+                                                    Popular {" "}
+                                                    <span className='font-weight-light'>Choice</span>
+                                                </div>
+                                            )}
+                                            <figure className='img-wrapper' style={{height: 180}}>
+                                                <img src={item.imageUrl} alt={item.name} className='image-cover' />
+                                            </figure>
+                                            <div className='meta-wrapper'>
+                                                <Button type='link' href={`/properties/${item._id}`} className='stretched-link d-block text-gray-800'>
+                                                    <h5 className='h4'>{item.name}</h5>
+                                                </Button>
+                                                <span className='text-gray-500'>
+                                                    {item.city}
+                                                </span>
                                             </div>
-                                        )}
-                                        <figure className='img-wrapper' style={{height: 180}}>
-                                            <img src={item.imageUrl} alt={item.name} className='image-cover' />
-                                        </figure>
-                                        <div className='meta-wrapper'>
-                                            <Button type='link' href={`/properties/${item._id}`} className='stretched-link d-block text-gray-800'>
-                                                <h5 className='h4'>{item.name}</h5>
-                                            </Button>
-                                            <span className='text-gray-500'>
-                                                {item.city}
-                                            </span>
                                         </div>
-                                    </div>
                                     </Fade>
                                 </div>
                             )

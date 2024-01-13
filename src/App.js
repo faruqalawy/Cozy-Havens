@@ -2,7 +2,10 @@ import React from "react";
 import  "./assets/scss/style.scss";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import LandingPage from "pages/LandingPages";
-import Example from "pages/Example";
+import DetailsPage from "pages/DetailsPage";
+import ExampleNumber from "pages/ExampleNumber";
+import ExampleDate from "pages/ExampleDate";
+import Checkout from "pages/Checkout";
 
 
 function App() {
@@ -11,7 +14,10 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/example" element={<Example />} />
+          <Route path="/properties/:id" element={<DetailsPage />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/exampleNum" element={<ExampleNumber />} />
+          <Route path="/exampleDate" element={<ExampleDate />} />
         </Routes>
       </Router>
     </div>

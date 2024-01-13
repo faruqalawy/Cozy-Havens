@@ -102,7 +102,10 @@ section {
 }
 
 .card {
-    height: 100%;
+    &.bordered {
+        border: 1px solid $gray-200;
+    }
+    border-radius: 15px;
 
     .tag {
         z-index: 3;
@@ -144,7 +147,6 @@ section {
         overflow: hidden;
         cursor: pointer;
         height: 100%;
-        border-radius: 15px;
         &:after {
             position: absolute;
             content: "";
@@ -241,5 +243,16 @@ Footer {
         margin-top: 50px 0;
         font-weight: 300;
         color: $gray-500;
+    }
+}
+
+.image-cover-2nd {
+    object-fit: cover; height: 100%; width: 100%;
+}
+
+main {
+    p {
+        color: $gray-400;
+        font-weight: 300;
     }
 }
