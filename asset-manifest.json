@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/faruqalawy/Cozy-Havens/static/css/main.c0accc53.css",
-    "main.js": "/faruqalawy/Cozy-Havens/static/js/main.4c73c245.js",
-    "static/js/787.427e0516.chunk.js": "/faruqalawy/Cozy-Havens/static/js/787.427e0516.chunk.js",
-    "static/media/img-hero.jpg": "/faruqalawy/Cozy-Havens/static/media/img-hero.aeded43154df4ee3d7c6.jpg",
-    "static/media/completed.jpg": "/faruqalawy/Cozy-Havens/static/media/completed.0f1050f4a76951fcd009.jpg",
-    "static/media/ic_calendar.svg": "/faruqalawy/Cozy-Havens/static/media/ic_calendar.417d098fe93b24ee7dc826a68fdb467c.svg",
-    "static/media/testimonial-image-frame.jpg": "/faruqalawy/Cozy-Havens/static/media/testimonial-image-frame.e50daaae6720afbd6eae.jpg",
-    "static/media/img-hero-frame.jpg": "/faruqalawy/Cozy-Havens/static/media/img-hero-frame.be2821271a8bb014a94c.jpg",
-    "static/media/logo-bsi.jpg": "/faruqalawy/Cozy-Havens/static/media/logo-bsi.75e73948e32bdbe0583e.jpg",
-    "static/media/logo-bri.jpg": "/faruqalawy/Cozy-Havens/static/media/logo-bri.3e34e30f8dbc73fd4333.jpg",
-    "static/media/icon-treasure.svg": "/faruqalawy/Cozy-Havens/static/media/icon-treasure.3db099c00f0568f4a9915bea28e6ee59.svg",
-    "index.html": "/faruqalawy/Cozy-Havens/index.html",
-    "static/media/star.svg": "/faruqalawy/Cozy-Havens/static/media/star.4e7eb7200b01b25419fd.svg",
-    "static/media/icon-traveler.svg": "/faruqalawy/Cozy-Havens/static/media/icon-traveler.2977b21f7c6aed88708ce6178eaaa985.svg",
-    "static/media/icon-cities.svg": "/faruqalawy/Cozy-Havens/static/media/icon-cities.0384b9a0b92d86eff36e5a1fd68ea675.svg",
-    "main.c0accc53.css.map": "/faruqalawy/Cozy-Havens/static/css/main.c0accc53.css.map",
-    "main.4c73c245.js.map": "/faruqalawy/Cozy-Havens/static/js/main.4c73c245.js.map",
-    "787.427e0516.chunk.js.map": "/faruqalawy/Cozy-Havens/static/js/787.427e0516.chunk.js.map"
+    "main.css": "/Cozy-Havens/static/css/main.3daf2d0a.css",
+    "main.js": "/Cozy-Havens/static/js/main.de2e6315.js",
+    "static/js/787.427e0516.chunk.js": "/Cozy-Havens/static/js/787.427e0516.chunk.js",
+    "static/media/img-hero.jpg": "/Cozy-Havens/static/media/img-hero.aeded43154df4ee3d7c6.jpg",
+    "static/media/completed.jpg": "/Cozy-Havens/static/media/completed.0f1050f4a76951fcd009.jpg",
+    "static/media/ic_calendar.svg": "/Cozy-Havens/static/media/ic_calendar.417d098fe93b24ee7dc826a68fdb467c.svg",
+    "static/media/testimonial-image-frame.jpg": "/Cozy-Havens/static/media/testimonial-image-frame.e50daaae6720afbd6eae.jpg",
+    "static/media/img-hero-frame.jpg": "/Cozy-Havens/static/media/img-hero-frame.be2821271a8bb014a94c.jpg",
+    "static/media/logo-bsi.jpg": "/Cozy-Havens/static/media/logo-bsi.75e73948e32bdbe0583e.jpg",
+    "static/media/logo-bri.jpg": "/Cozy-Havens/static/media/logo-bri.3e34e30f8dbc73fd4333.jpg",
+    "static/media/icon-treasure.svg": "/Cozy-Havens/static/media/icon-treasure.3db099c00f0568f4a9915bea28e6ee59.svg",
+    "static/media/star.svg": "/Cozy-Havens/static/media/star.4e7eb7200b01b25419fd.svg",
+    "static/media/icon-traveler.svg": "/Cozy-Havens/static/media/icon-traveler.2977b21f7c6aed88708ce6178eaaa985.svg",
+    "index.html": "/Cozy-Havens/index.html",
+    "static/media/icon-cities.svg": "/Cozy-Havens/static/media/icon-cities.0384b9a0b92d86eff36e5a1fd68ea675.svg",
+    "main.3daf2d0a.css.map": "/Cozy-Havens/static/css/main.3daf2d0a.css.map",
+    "main.de2e6315.js.map": "/Cozy-Havens/static/js/main.de2e6315.js.map",
+    "787.427e0516.chunk.js.map": "/Cozy-Havens/static/js/787.427e0516.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0accc53.css",
-    "static/js/main.4c73c245.js"
+    "static/css/main.3daf2d0a.css",
+    "static/js/main.de2e6315.js"
   ]
 }
