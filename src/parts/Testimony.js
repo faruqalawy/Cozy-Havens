@@ -1,6 +1,7 @@
 import React from 'react'
 import { Fade } from 'react-awesome-reveal'
 
+import TestimonyImage from 'assets/images/testimonial-image.jpg'
 import TestimonyAccent from 'assets/images/testimonial-image-frame.jpg'
 
 import Star from 'elements/Star'
@@ -16,7 +17,7 @@ export default function Testimony({data}) {
                         className='testimonial-hero'
                         style={{margin: `30px 0 0 30px`}}
                     >
-                        <img src={data.imageUrl} alt="Testimonial" className='position-absolute' style={{zIndex: 1}} />
+                        <img src={TestimonyImage} alt="Testimonial" className='position-absolute' style={{zIndex: 1}} />
                         <img src={TestimonyAccent} alt='Testimonial frame' className='position-absolute' style={{margin: `-30px 0 0 -30px`}} />
                     </div>
                 </div>

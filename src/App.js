@@ -1,6 +1,6 @@
 import React from "react";
 import  "./assets/scss/style.scss";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import LandingPage from "pages/LandingPages";
 import DetailsPage from "pages/DetailsPage";
 import ExampleNumber from "pages/ExampleNumber";

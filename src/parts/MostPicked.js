@@ -3,7 +3,14 @@ import { Fade } from 'react-awesome-reveal';
 
 import Button from 'elements/Button';
 
+import mostPicked from 'assets/images/mostpicked-main.jpg'
+import mostPicked1 from 'assets/images/mostpicked-1.jpg'
+import mostPicked2 from 'assets/images/mostpicked-2.jpg'
+import mostPicked3 from 'assets/images/mostpicked-3.jpg'
+import mostPicked4 from 'assets/images/mostpicked-4.jpg'
+
 export default function MostPicked(props) {
+    const mostPickedImage = [mostPicked, mostPicked1, mostPicked2, mostPicked3, mostPicked4]
     return (
         <section className='container' ref={props.refMostPicked}>
             <Fade direction='up' triggerOnce>
@@ -22,7 +29,7 @@ export default function MostPicked(props) {
                                 </div>
                                 <figure className='img-wrapper'>
                                     <img
-                                        src={item.imageUrl}
+                                        src={mostPickedImage[index]}
                                         alt={item.name}
                                         className='image-cover'
                                     />
