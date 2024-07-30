@@ -1,6 +1,15 @@
 import React from 'react';
 import parse from 'html-react-parser';
 
+import { Cloudinary } from '@cloudinary/url-gen';
+import { AdvancedImage } from '@cloudinary/react';
+
+const cld = new Cloudinary({
+    cloud: {
+        cloudName: "dnwvsqlh1",
+    },
+});
+
 export default function PageDetailDescription({ data }) {
     return (
         <main>
@@ -14,10 +23,10 @@ export default function PageDetailDescription({ data }) {
                             className='col-3'
                             style={{marginBottom: 20}}
                         >
-                            <img
+                            <AdvancedImage
+                                cldImg={cld.image(feature.imageUrl)}
                                 width="38"
                                 className='d-block mb-2'
-                                src={feature.imageUrl}
                                 alt={feature.name}
                             />{" "}
                             <span>{feature.qty}</span>

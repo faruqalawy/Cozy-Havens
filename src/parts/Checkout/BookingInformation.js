@@ -1,21 +1,29 @@
 import React from 'react';
 import { Fade } from 'react-awesome-reveal';
+import { Cloudinary } from '@cloudinary/url-gen';
+import { AdvancedImage } from '@cloudinary/react';
 
 import { InputText } from 'elements/Form';
 
 export default function BookingInformation(props) {
     const { data, ItemDetails, checkout } = props;
+
+    const cld = new Cloudinary({
+        cloud: {
+            cloudName: "dnwvsqlh1",
+        },
+    });
     return (
         <Fade triggerOnce>
             <div className='container' style={{ marginBottom: 30 }}>
-                <div className='row justify-content-center align-items-center'>
-                    <div className='col-5 border-right py-5' style={{ paddingRight: 80 }}>
+                <div className='row justify-content-center align-items-center booking-info'>
+                    <div className='col-12 col-lg-5 py-5 booking-info-image'>
                         <Fade delay={300} triggerOnce>
-                            <div className='card'>
-                                <figure className='img-wrapper' style={{ height: 270 }}>
-                                    <img
+                            <div className='card border-0'>
+                                <figure className='img-wrapper' >
+                                    <AdvancedImage
                                         className='image-cover'
-                                        src={ItemDetails.imageUrls[0].url}
+                                        cldImg={cld.image("cozy-havens/images/categories-1")}
                                         alt={ItemDetails.name}
                                     />
                                 </figure>
@@ -40,7 +48,8 @@ export default function BookingInformation(props) {
                             </div>
                         </Fade>
                     </div>
-                    <div className='col-5 py-5' style={{ paddingLeft: 80 }}>
+                    <div className='col-12 col-lg-5 booking-info-form'>
+                        <h4 className='d-lg-none text-center' style={{marginBottom: 20}}>Your Information</h4>
                         <Fade delay={600} triggerOnce>
                             <label htmlFor='firstName'>First Name</label>
                             <InputText 

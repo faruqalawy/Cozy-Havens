@@ -16,9 +16,9 @@ export default function Payment(props) {
     return (
         <Fade triggerOnce>
             <div className='container' style={{marginBottom: 30}}>
-                <div className='row justify-content-center align-items-center'>
+                <div className='row justify-content-center align-items-center payment'>
 
-                    <div className='col-5 border-right py-5' style={{paddingRight: 80}}>
+                    <div className='col-12 col-md-5 py-5 payment-details'>
                         <Fade delay={300} triggerOnce>
                             <p className='mb-4'>Payment Transfer:</p>
                             <p>Tax: ${tax}%</p>
@@ -51,7 +51,8 @@ export default function Payment(props) {
                         </Fade>
                     </div>
 
-                    <div className='col-5 py-5' style={{ paddingLeft: 80 }}>
+                    <div className='col-12 col-md-5 py-5 payment-form'>
+                    <h4 className='d-md-none text-center' style={{marginBottom: 20}}>Payment Information</h4>
                         <Fade delay={600} triggerOnce>
                             <label htmlFor='proofPayment'>Upload Transfer Receipt</label>
                             <InputFile

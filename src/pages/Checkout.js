@@ -126,7 +126,7 @@ export default class Checkout extends Component {
                                             type='link'
                                             isBlock
                                             isLight
-                                            href={`/properties/${ItemDetails._id}`}
+                                            href={`/properties/${ItemDetails.name}`}
                                         >
                                             Cancel
                                         </Button>

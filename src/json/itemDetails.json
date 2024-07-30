@@ -9,11 +9,11 @@
         },
         {
             "_id": "asd1293uasdads1",
-            "url": "/images/featured-img-2.jpg"
+            "url": "cozy-havens/images/featured-image-2"
         },
         {
             "_id": "asd1293uasdads1",
-            "url": "/images/featured-img-3.jpg"
+            "url": "cozy-havens/images/featured-image-3"
         }
     ],
     "country": "Indonesia",
@@ -28,49 +28,49 @@
             "_id": "asd1293uasdads1",
             "qty": "3",
             "name": "bedrooms",
-            "imageUrl": "/images/ic_bed.svg"
+            "imageUrl": "cozy-havens/icons/ic_bed"
         },
         {
             "_id": "asd1293uasdads1",
             "qty": "1",
             "name": "living room",
-            "imageUrl": "/images/ic_lamp.svg"
+            "imageUrl": "cozy-havens/icons/ic_lamp"
         },
         {
             "_id": "asd1293uasdads1",
             "qty": "3",
             "name": "bathrooms",
-            "imageUrl": "/images/ic_bathub.svg"
+            "imageUrl": "cozy-havens/icons/ic_bathub"
         },
         {
             "_id": "asd1293uasdads1",
             "qty": "1",
             "name": "dining room",
-            "imageUrl": "/images/ic_dining table.svg"
+            "imageUrl": "cozy-havens/icons/ic_dining-table"
         },
         {
             "_id": "asd1293uasdads1",
             "qty": "80",
             "name": "mbps",
-            "imageUrl": "/images/ic_wifi.svg"
+            "imageUrl": "cozy-havens/icons/ic_wifi"
         },
         {
             "_id": "asd1293uasdads1",
             "qty": "8",
             "name": "unit ready",
-            "imageUrl": "/images/ic_house.svg"
+            "imageUrl": "cozy-havens/icons/ic_house"
         },
         {
             "_id": "asd1293uasdads1",
             "qty": "2",
             "name": "refrigator",
-            "imageUrl": "/images/ic_refrigator.svg"
+            "imageUrl": "cozy-havens/icons/ic_refrigator"
         },
         {
             "_id": "asd1293uasdads1",
             "qty": "1",
             "name": "television",
-            "imageUrl": "/images/ic_television.svg"
+            "imageUrl": "cozy-havens/icons/ic_television"
         }
     ],
     "categories": [
@@ -81,7 +81,7 @@
                 {
                     "_id": "asd1293uasdads1",
                     "name": "Parangtritis Beach",
-                    "imageUrl": "/images/treasures-1.jpg",
+                    "imageUrl": "cozy-havens/images/treasures-1",
                     "country": "Indonesia",
                     "city": "Beach",
                     "isPopular": true
@@ -89,7 +89,7 @@
                 {
                     "_id": "asd1293uasdads1",
                     "name": "Pasar Bantul",
-                    "imageUrl": "/images/treasures-2.jpg",
+                    "imageUrl": "cozy-havens/images/treasures-2",
                     "country": "Indonesia",
                     "city": "Shopping",
                     "isPopular": false
@@ -97,7 +97,7 @@
                 {
                     "_id": "asd1293uasdads1",
                     "name": "Pinus Forest Dlingo",
-                    "imageUrl": "/images/treasures-3.jpg",
+                    "imageUrl": "cozy-havens/images/treasures-3",
                     "country": "Indonesia",
                     "city": "Nature",
                     "isPopular": false
@@ -105,7 +105,7 @@
                 {
                     "_id": "asd1293uasdads1",
                     "name": "Karst Sedayu",
-                    "imageUrl": "/images/treasures-4.jpg",
+                    "imageUrl": "cozy-havens/images/treasures-4",
                     "country": "Indonesia",
                     "city": "Tubing",
                     "isPopular": false
@@ -115,7 +115,7 @@
     ],
     "testimonial": {
         "_id": "asd1293uasdads1",
-        "imageUrl": "/images/testimonial-image-2.jpg",
+        "imageUrl": "cozy-havens/images/details-testimony",
         "name": "Happy Traveler",
         "rate": 4.8,
         "content": "What a beautiful and challenging adventure, thanks for leading us to an experience that will never be forgotten.",

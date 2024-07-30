@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-
 import propTypes from 'prop-types';
-
 import Button from 'elements/Button';
 import { InputNumber, InputDate } from 'elements/Form';
 
@@ -23,8 +21,7 @@ export default class BookingForm extends Component {
 
     updateData = e => {
         this.setState({
-            ...this.state,
-            date: {
+            data: {
                 ...this.state.data,
                 [e.target.name]: e.target.value
             }
@@ -37,7 +34,7 @@ export default class BookingForm extends Component {
         if (prevState.data.date !== data.date) {
             const startDate = new Date(data.date.startDate);
             const endDate = new Date(data.date.endDate);
-            const countDuration = Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24)); // Perhitungan durasi dalam hari
+            const countDuration = (endDate - startDate) / (1000 * 60 * 60 * 24) + 1;
             this.setState({
                 data: {
                     ...this.state.data,
@@ -53,8 +50,8 @@ export default class BookingForm extends Component {
                 data: {
                     ...this.state.data,
                     date: {
-                    ...this.state.data.date,
-                    endDate: endDate,
+                        ...this.state.data.date,
+                        endDate: endDate,
                     },
                 },
             });
@@ -63,13 +60,13 @@ export default class BookingForm extends Component {
     
     render() {
         const { data } = this.state;
-        const { itemDetails, startBooking } = this.props;
+        const { itemDetails, startBooking, properties } = this.props;
 
         return (
-            <div className='card bordered' style={{ padding: "60px 80px" }}>
+            <div className='card booking-form bordered'>
                 <h4 className='mb-3'>Start Booking</h4>
                 <h5 className='h2 text-teal mb-4'>
-                    ${itemDetails.price}{" "}
+                    ${properties.price || itemDetails.price}{" "}
                     <span className='text-gray-500 font-weight-light'>
                         per {itemDetails.unit}
                     </span>
@@ -94,7 +91,7 @@ export default class BookingForm extends Component {
                 >
                     You will pay{" "}
                     <span className='text-gray-900'>
-                        ${itemDetails.price * data.duration} USD
+                        ${(properties.price || itemDetails.price) * data.duration} USD
                     </span>{" "}
                     per{" "}
                     <span className='text-gray-900'>
@@ -107,7 +104,10 @@ export default class BookingForm extends Component {
                     hasShadow
                     isPrimary
                     isBlock
-                    onClick={startBooking}
+                    type='link'
+                    href='/checkout'
+                    style={{ display: 'flex', justifyContent: 'center' }}
+                    // onClick={startBooking}
                 >
                     Continue to Book
                 </Button>
@@ -116,8 +116,8 @@ export default class BookingForm extends Component {
     }
 }
 
-
 BookingForm.propTypes = {
     itemDetails: propTypes.object,
-    startBooking: propTypes.func
-}
+    // startBooking: propTypes.func,
+    properties: propTypes.object
+};

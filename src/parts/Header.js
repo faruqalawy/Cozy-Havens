@@ -18,7 +18,7 @@ export default function Header(props) {
         <header className="spacing-sm">
           <div className="container">
             <div className="navbar navbar-expand-lg navbar-ligth">
-              <Button className="brand-text-icon mx-auto" href="" type="link">
+              <Button className="brand-text-icon mx-auto" href="/" type="link">
                 Cozy<span className="text-gray-900">Havens</span>
               </Button>
             </div>
@@ -32,18 +32,18 @@ export default function Header(props) {
       <header className="spacing-sm">
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light">
-            <BrandIcon />
+            <BrandIcon className="brand" />
 
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
+              data-bs-toggle="collapse"
+              data-bs-target="#notYetImplemented" // offcanvas not yet activated, change this same as collapse id later when offcanvas activated
+              aria-controls="notYetImplemented"// offcanvas not yet activated, change this same as collapse id later when offcanvas activated
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
